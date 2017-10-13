@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015/Debian) (preloaded format=platex 2017.9.17)  13 OCT 2017 03:48
+This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015/Debian) (preloaded format=platex 2017.9.17)  13 OCT 2017 09:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -187,14 +187,10 @@ l.169 \end{table}
 ! Extra }, or forgotten \endgroup.
 \endtable ...urrbox \fi \vskip \intextsep \egroup 
                                                   
-l.223 \end{table}
+l.224 \end{table}
                  
 ? 
-[7] [8] (./ã^^82æ¿€^^82é´»^^83^^86ã^^83^^a0æ^^8f^^90ç½…^^88æ^^9b¸.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+[7] [8] (./ã^^82æ¿€^^82é´»^^83^^86ã^^83^^a0æ^^8f^^90ç½…^^88æ^^9b¸.aux) ) 
 Here is how much of TeX's memory you used:
  1264 strings out of 494865
  16483 string characters out of 6179769
@@ -205,4 +201,4 @@ Here is how much of TeX's memory you used:
  27i,9n,21p,489b,266s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on ã^^82æ¿€^^82é´»^^83^^86ã^^83^^a0æ^^8f^^90ç½…^^88æ^^9b¸.dvi (8 pa
-ges, 20052 bytes).
+ges, 20452 bytes).
