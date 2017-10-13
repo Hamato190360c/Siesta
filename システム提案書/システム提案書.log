@@ -1,15 +1,16 @@
-This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2016.5.19)  13 OCT 2017 15:32
+This is e-pTeX, Version 3.14159265-p3.7-160201-2.6 (utf8.euc) (TeX Live 2016) (preloaded format=platex 2017.4.19)  13 OCT 2017 17:50
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
 **ã^^82æ¿€^^82é´»^^83^^86ã^^83^^a0æ^^8f^^90ç½…^^88æ^^9b¸.tex
 (./ã^^82æ¿€^^82é´»^^83^^86ã^^83^^a0æ^^8f^^90ç½…^^88æ^^9b¸.tex
-pLaTeX2e <2006/11/10> (based on LaTeX2e <2015/01/01> patch level 0)
-Babel <3.9l> and hyphenation patterns for 79 languages loaded.
-(/usr/local/texlive/2015/texmf-dist/tex/platex/base/jarticle.cls
+pLaTeX2e <2016/05/07> (based on LaTeX2e <2016/03/31>)
+Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+(/usr/local/texlive/2016/texmf-dist/tex/platex/base/jarticle.cls
 Document Class: jarticle 2006/06/27 v1.6 Standard pLaTeX class
 \c@@paper=\count81
-(/usr/local/texlive/2015/texmf-dist/tex/platex/base/jsize10.clo
+(/usr/local/texlive/2016/texmf-dist/tex/platex/base/jsize10.clo
 File: jsize10.clo 2006/06/27 v1.6 Standard pLaTeX file (size option)
 )
 \c@part=\count82
@@ -24,47 +25,53 @@ File: jsize10.clo 2006/06/27 v1.6 Standard pLaTeX file (size option)
 \belowcaptionskip=\skip42
 \symmincho=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
-(Font)                  JY1/mc/m/n --> JY1/gt/m/n on input line 601.
+(Font)                  JY1/mc/m/n --> JY1/gt/m/n on input line 593.
 \toclineskip=\dimen118
 \@lnumwidth=\dimen119
 \bibindent=\dimen120
 \heisei=\count90
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks15
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/05/09 v1.0r Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
-File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/01/02 v1.10 sample graphics configuration
 )
-Package graphics Info: Driver file: dvipdfmx.def on input line 94.
+Package graphics Info: Driver file: dvipdfmx.def on input line 96.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/dvipdfmx-def/dvipdfmx.def
-File: dvipdfmx.def 2015/03/26 v4.04 LaTeX color/graphics driver for dvipdfmx (T
+(/usr/local/texlive/2016/texmf-dist/tex/latex/dvipdfmx-def/dvipdfmx.def
+File: dvipdfmx.def 2016/04/06 v4.08 LaTeX color/graphics driver for dvipdfmx (T
 eX Live/ChoF)
-))
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
 \Gin@req@height=\dimen121
 \Gin@req@width=\dimen122
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2014/10/28 v1.1a Standard LaTeX Color (DPC)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/05/09 v1.1c Standard LaTeX Color (DPC)
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg
-File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package color Info: Driver file: dvipdfmx.def on input line 142.
+Package color Info: Driver file: dvipdfmx.def on input line 144.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/dvipsnam.def
-File: dvipsnam.def 2014/10/14 v3.0j Driver-dependent file (DPC,SPQR)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2015/12/30 v3.0k Driver-dependent file (DPC,SPQR)
 ))
 (./epsbox.sty
 EPSbox version 1.6 - Released May 5, 1992 (for LaTeX/jdvi2kps2.1)
@@ -81,16 +88,20 @@ Based on EPSF macro package. version 1.2 - Released July 16, 1990
 \eps@cntc=\count93
 \eps@cntd=\count94
 \ps@stream=\read1
-) (/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-) (./here.sty)
-(./float.sty
-Style-Option: `float' 1.1c 18 Dec 92 (AL)
-\float@type=\count95
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/here/here.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count95
+\float@exts=\toks16
 \float@box=\box41
+\@float@everytoks=\toks17
 \@floatcapt=\box42
-) (./ã^^82æ¿€^^82é´»^^83^^86ã^^83^^a0æ^^8f^^90ç½…^^88æ^^9b¸.aux) 
+) 
+(./ã^^82æ¿€^^82é´»^^83^^86ã^^83^^a0æ^^8f^^90ç½…^^88æ^^9b¸.aux) 
 \openout1 = `ã^^82æ¿€^^82é´»^^83^^86ã^^83^^a0æ^^8f^^90ç½…^^88æ^^9b¸.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
@@ -119,15 +130,15 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 34.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 34.
-
-[1
+ [1
 
 ]
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 38.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 38.
- (./ã^^82æ¿€^^82é´»^^83^^86ã^^83^^a0æ^^8f^^90ç½…^^88æ^^9b¸.toc
+ 
+(./ã^^82æ¿€^^82é´»^^83^^86ã^^83^^a0æ^^8f^^90ç½…^^88æ^^9b¸.toc
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
@@ -142,16 +153,10 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
  [2]
 File: nyuensya.png Graphic file (type bmp)
-
-<nyuensya.png>
-! Extra }, or forgotten \endgroup.
-\endfigure ...rrbox \fi \vskip \intextsep \egroup 
-                                                  
-l.51 \end{figure}
-                 
-? 
+ <nyuensya.png>
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 57.
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
@@ -164,36 +169,16 @@ LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
  [4]
 File: data_nagare.png Graphic file (type bmp)
 
-<data_nagare.png>
-! Extra }, or forgotten \endgroup.
-\endfigure ...rrbox \fi \vskip \intextsep \egroup 
-                                                  
-l.138 \end{figure}
-                  
-? 
-[5]
-! Extra }, or forgotten \endgroup.
-\endtable ...urrbox \fi \vskip \intextsep \egroup 
-                                                  
-l.169 \end{table}
-                 
-? 
-[6]
-! Extra }, or forgotten \endgroup.
-\endtable ...urrbox \fi \vskip \intextsep \egroup 
-                                                  
-l.224 \end{table}
-                 
-? 
-[7] [8] (./ã^^82æ¿€^^82é´»^^83^^86ã^^83^^a0æ^^8f^^90ç½…^^88æ^^9b¸.aux) ) 
+<data_nagare.png> [5] [6] [7] [8] (./ã^^82æ¿€^^82é´»^^83^^86ã^^83^^a0æ^^8f^^90ç½…^
+^88æ^^9b¸.aux) ) 
 Here is how much of TeX's memory you used:
- 1078 strings out of 493777
- 13781 string characters out of 6151334
- 72531 words of memory out of 5000000
- 4586 multiletter control sequences out of 15000+600000
- 14655 words of font info for 57 fonts, out of 8000000 for 9000
+ 1289 strings out of 493693
+ 17265 string characters out of 6149787
+ 76887 words of memory out of 5000000
+ 4856 multiletter control sequences out of 15000+600000
+ 14641 words of font info for 57 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 25i,9n,21p,489b,266s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 27i,10n,21p,487b,316s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on ã^^82æ¿€^^82é´»^^83^^86ã^^83^^a0æ^^8f^^90ç½…^^88æ^^9b¸.dvi (8 pa
-ges, 21424 bytes).
+ges, 22256 bytes).
