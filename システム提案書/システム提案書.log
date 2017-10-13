@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2016.5.19)  13 OCT 2017 15:06
+This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2016.5.19)  13 OCT 2017 15:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -187,13 +187,13 @@ l.224 \end{table}
 ? 
 [7] [8] (./ã^^82æ¿€^^82é´»^^83^^86ã^^83^^a0æ^^8f^^90ç½…^^88æ^^9b¸.aux) ) 
 Here is how much of TeX's memory you used:
- 1076 strings out of 493777
- 13769 string characters out of 6151334
+ 1078 strings out of 493777
+ 13781 string characters out of 6151334
  72531 words of memory out of 5000000
- 4584 multiletter control sequences out of 15000+600000
+ 4586 multiletter control sequences out of 15000+600000
  14655 words of font info for 57 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  25i,9n,21p,489b,266s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on ã^^82æ¿€^^82é´»^^83^^86ã^^83^^a0æ^^8f^^90ç½…^^88æ^^9b¸.dvi (8 pa
-ges, 20972 bytes).
+ges, 21424 bytes).
