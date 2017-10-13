@@ -1,15 +1,15 @@
-This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015/Debian) (preloaded format=platex 2017.9.17)  13 OCT 2017 09:26
+This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2016.5.19)  13 OCT 2017 15:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **ã^^82æ¿€^^82é´»^^83^^86ã^^83^^a0æ^^8f^^90ç½…^^88æ^^9b¸.tex
 (./ã^^82æ¿€^^82é´»^^83^^86ã^^83^^a0æ^^8f^^90ç½…^^88æ^^9b¸.tex
-pLaTeX2e <2006/11/10> (based on LaTeX2e <2016/02/01> patch level 0)
-Babel <3.9n> and hyphenation patterns for 11 languages loaded.
-(/usr/share/texlive/texmf-dist/tex/platex/base/jarticle.cls
+pLaTeX2e <2006/11/10> (based on LaTeX2e <2015/01/01> patch level 0)
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(/usr/local/texlive/2015/texmf-dist/tex/platex/base/jarticle.cls
 Document Class: jarticle 2006/06/27 v1.6 Standard pLaTeX class
 \c@@paper=\count81
-(/usr/share/texlive/texmf-dist/tex/platex/base/jsize10.clo
+(/usr/local/texlive/2015/texmf-dist/tex/platex/base/jsize10.clo
 File: jsize10.clo 2006/06/27 v1.6 Standard pLaTeX file (size option)
 )
 \c@part=\count82
@@ -30,48 +30,43 @@ LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
 \bibindent=\dimen120
 \heisei=\count90
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks15
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: dvipdfmx.def on input line 95.
+Package graphics Info: Driver file: dvipdfmx.def on input line 94.
 
-(/usr/share/texlive/texmf-dist/tex/latex/dvipdfmx-def/dvipdfmx.def
-File: dvipdfmx.def 2015/11/04 v4.07 LaTeX color/graphics driver for dvipdfmx (T
+(/usr/local/texlive/2015/texmf-dist/tex/latex/dvipdfmx-def/dvipdfmx.def
+File: dvipdfmx.def 2015/03/26 v4.04 LaTeX color/graphics driver for dvipdfmx (T
 eX Live/ChoF)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-)))
+))
 \Gin@req@height=\dimen121
 \Gin@req@width=\dimen122
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2016/01/03 v1.1b Standard LaTeX Color (DPC)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2014/10/28 v1.1a Standard LaTeX Color (DPC)
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
-Package color Info: Driver file: dvipdfmx.def on input line 143.
+Package color Info: Driver file: dvipdfmx.def on input line 142.
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/dvipsnam.def
-File: dvipsnam.def 2015/12/30 v3.0k Driver-dependent file (DPC,SPQR)
-)) (./epsbox.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2014/10/14 v3.0j Driver-dependent file (DPC,SPQR)
+))
+(./epsbox.sty
 EPSbox version 1.6 - Released May 5, 1992 (for LaTeX/jdvi2kps2.1)
 Based on EPSF macro package. version 1.2 - Released July 16, 1990
 \@darg=\dimen123
@@ -86,7 +81,7 @@ Based on EPSF macro package. version 1.2 - Released July 16, 1990
 \eps@cntc=\count93
 \eps@cntd=\count94
 \ps@stream=\read1
-) (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 ) (./here.sty)
@@ -156,7 +151,7 @@ l.51 \end{figure}
                  
 ? 
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 57.
-(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
@@ -192,13 +187,13 @@ l.224 \end{table}
 ? 
 [7] [8] (./ã^^82æ¿€^^82é´»^^83^^86ã^^83^^a0æ^^8f^^90ç½…^^88æ^^9b¸.aux) ) 
 Here is how much of TeX's memory you used:
- 1264 strings out of 494865
- 16483 string characters out of 6179769
- 71173 words of memory out of 5000000
- 4699 multiletter control sequences out of 15000+600000
- 14641 words of font info for 57 fonts, out of 8000000 for 9000
- 264 hyphenation exceptions out of 8191
- 27i,9n,21p,489b,266s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 1076 strings out of 493777
+ 13769 string characters out of 6151334
+ 72531 words of memory out of 5000000
+ 4584 multiletter control sequences out of 15000+600000
+ 14655 words of font info for 57 fonts, out of 8000000 for 9000
+ 929 hyphenation exceptions out of 8191
+ 25i,9n,21p,489b,266s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on ã^^82æ¿€^^82é´»^^83^^86ã^^83^^a0æ^^8f^^90ç½…^^88æ^^9b¸.dvi (8 pa
-ges, 20452 bytes).
+ges, 20972 bytes).
