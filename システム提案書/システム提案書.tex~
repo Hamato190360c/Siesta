@@ -132,7 +132,7 @@ Siesta \\
 
 \begin{figure}[H]
 	\begin{center}
-		\includegraphics[width=0.8 \linewidth]{data_nagare.png}
+		\includegraphics[width=0.8 \linewidth]{data_nagare_2.png}
 		\caption{情報の流れ}
 		\label{data_nagare}
 	\end{center}
@@ -143,13 +143,13 @@ Siesta \\
 Webカメラで撮影した映像をサーバに送信し，サーバから利用者端末に送信する．
 
 \section{システムインターフェース}
-システム間のやりとりはHTTP通信を用いて行います．
+システム間のやりとりは安全に行うためにHTTPS通信を用いて行います．
 
 \section{想定する利用者}
 本システムを利用するものは以下の通りです．
 \begin{itemize}
-	\item 観光施設の従業員
-	\item 観光施設の利用者
+	\item 動物園の従業員
+	\item 動物園の利用者
 \end{itemize}
 
 \section{システムのハードウェア構成，ソフトウェア構成}
@@ -158,8 +158,9 @@ Webカメラで撮影した映像をサーバに送信し，サーバから利�
 \begin{table}[H]
 	\caption{ハードウェア構成}
 	\begin{center}
- 		\begin{tabular}{|c|c|}\hline
-			項目 & 数量 \\ \hline
+ 	  \begin{tabular}{|c|c|}\hline
+            		項目 & 数量 \\ \hline
+			入力装置用PC & 1台 \\ \hline
 			スマートフォン & 1台 \\ \hline
 			サーバ用PC & 1台 \\ \hline
 			Raspberry~Pi & 3台 \\ \hline
@@ -170,7 +171,7 @@ Webカメラで撮影した映像をサーバに送信し，サーバから利�
 \end{table}
 
 
-ソフトウェアはwikitude，MySQL，javascript，HTML，CSSを用いて構成します．
+ソフトウェアはwikitude(画像認識)，MySQL(データベース)，を用いて構成します．また，使用する言語はjavascript(HTML内の一部のプログラム)，SQL(データベース)，HTML(ホームページ)，CSS(ホームページ)を用いて構成します．
 
 \section{導入・移行計画}
 2017年2月5日をもって，システムの導入を完了します．
@@ -179,7 +180,7 @@ Webカメラで撮影した映像をサーバに送信し，サーバから利�
 提案システムを以下のように運用・保守します．
 
 \begin{enumerate}
-	\item 運用は管理者が行います．
+	\item 運用は動物園の管理者が情報の更新を行います．
 	\item 故障発生時は弊社にて対応させていただきます．
 \end{enumerate}
 

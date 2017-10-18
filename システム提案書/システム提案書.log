@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2016.3.5)  18 OCT 2017 16:37
+This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2016.3.5)  18 OCT 2017 16:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -184,13 +184,13 @@ LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 99.
  [4]
-File: data_nagare.png Graphic file (type bmp)
+File: data_nagare_2.png Graphic file (type bmp)
 
-<data_nagare.png> [5] [6] [7] [8] [9] (./ã^^82æ¿€^^82é´»^^83^^86ã^^83^^a0æ^^8f^^9
-0ç½…^^88æ^^9b¸.aux) ) 
+<data_nagare_2.png> [5] [6] [7] [8] [9] (./ã^^82æ¿€^^82é´»^^83^^86ã^^83^^a0æ^^8f^
+^90ç½…^^88æ^^9b¸.aux) ) 
 Here is how much of TeX's memory you used:
  1343 strings out of 493723
- 17831 string characters out of 6150791
+ 17839 string characters out of 6150791
  77568 words of memory out of 5000000
  4886 multiletter control sequences out of 15000+600000
  14737 words of font info for 58 fonts, out of 8000000 for 9000
