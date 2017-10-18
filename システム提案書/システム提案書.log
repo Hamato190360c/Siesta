@@ -1,11 +1,11 @@
-This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2016.5.19)  16 OCT 2017 17:32
+This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2016.3.5)  18 OCT 2017 16:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **ã^^82æ¿€^^82é´»^^83^^86ã^^83^^a0æ^^8f^^90ç½…^^88æ^^9b¸.tex
 (./ã^^82æ¿€^^82é´»^^83^^86ã^^83^^a0æ^^8f^^90ç½…^^88æ^^9b¸.tex
-pLaTeX2e <2006/11/10> (based on LaTeX2e <2015/01/01> patch level 0)
-Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+pLaTeX2e <2006/11/10> (based on LaTeX2e <2016/02/01> patch level 0)
+Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
 (/usr/local/texlive/2015/texmf-dist/tex/platex/base/jarticle.cls
 Document Class: jarticle 2006/06/27 v1.6 Standard pLaTeX class
 \c@@paper=\count81
@@ -38,33 +38,39 @@ Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks15
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: dvipdfmx.def on input line 94.
+Package graphics Info: Driver file: dvipdfmx.def on input line 95.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/dvipdfmx-def/dvipdfmx.def
-File: dvipdfmx.def 2015/03/26 v4.04 LaTeX color/graphics driver for dvipdfmx (T
+File: dvipdfmx.def 2015/11/04 v4.07 LaTeX color/graphics driver for dvipdfmx (T
 eX Live/ChoF)
-))
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)))
 \Gin@req@height=\dimen121
 \Gin@req@width=\dimen122
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2014/10/28 v1.1a Standard LaTeX Color (DPC)
+Package: color 2016/01/03 v1.1b Standard LaTeX Color (DPC)
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
-Package color Info: Driver file: dvipdfmx.def on input line 142.
+Package color Info: Driver file: dvipdfmx.def on input line 143.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/dvipsnam.def
-File: dvipsnam.def 2014/10/14 v3.0j Driver-dependent file (DPC,SPQR)
+File: dvipsnam.def 2015/12/30 v3.0k Driver-dependent file (DPC,SPQR)
 ))
 (./epsbox.sty
 EPSbox version 1.6 - Released May 5, 1992 (for LaTeX/jdvi2kps2.1)
@@ -180,16 +186,16 @@ LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
  [4]
 File: data_nagare.png Graphic file (type bmp)
 
-<data_nagare.png> [5] [6] [7] [8] (./ã^^82æ¿€^^82é´»^^83^^86ã^^83^^a0æ^^8f^^90ç½…^
-^88æ^^9b¸.aux) ) 
+<data_nagare.png> [5] [6] [7] [8] [9] (./ã^^82æ¿€^^82é´»^^83^^86ã^^83^^a0æ^^8f^^9
+0ç½…^^88æ^^9b¸.aux) ) 
 Here is how much of TeX's memory you used:
- 1155 strings out of 493777
- 14942 string characters out of 6151334
- 75238 words of memory out of 5000000
- 4654 multiletter control sequences out of 15000+600000
- 14751 words of font info for 58 fonts, out of 8000000 for 9000
+ 1343 strings out of 493723
+ 17831 string characters out of 6150791
+ 77568 words of memory out of 5000000
+ 4886 multiletter control sequences out of 15000+600000
+ 14737 words of font info for 58 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 25i,10n,21p,487b,314s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 27i,10n,21p,487b,316s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on ã^^82æ¿€^^82é´»^^83^^86ã^^83^^a0æ^^8f^^90ç½…^^88æ^^9b¸.dvi (8 pa
-ges, 21848 bytes).
+Output written on ã^^82æ¿€^^82é´»^^83^^86ã^^83^^a0æ^^8f^^90ç½…^^88æ^^9b¸.dvi (9 pa
+ges, 22472 bytes).

@@ -14,8 +14,8 @@
 \contentsline {section}{\numberline {11}保守・運用}{6}
 \contentsline {section}{\numberline {12}作業標準}{6}
 \contentsline {section}{\numberline {13}品質管理}{6}
-\contentsline {section}{\numberline {14}工程計画}{6}
+\contentsline {section}{\numberline {14}工程計画}{7}
 \contentsline {section}{\numberline {15}体制}{7}
 \contentsline {section}{\numberline {16}システム化にかかる費用とその効果}{7}
-\contentsline {section}{\numberline {17}本システム提案のアピールポイント}{7}
+\contentsline {section}{\numberline {17}本システム提案のアピールポイント}{8}
 \contentsline {section}{\numberline {18}用語の定義}{8}
