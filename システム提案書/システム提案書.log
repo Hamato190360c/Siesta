@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7-160201-2.6 (utf8.euc) (TeX Live 2016) (preloaded format=platex 2017.4.19)  19 OCT 2017 15:56
+This is e-pTeX, Version 3.14159265-p3.7-160201-2.6 (utf8.euc) (TeX Live 2016) (preloaded format=platex 2017.4.19)  23 OCT 2017 17:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -173,11 +173,11 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \openout3 = `ã^^82æ¿€^^82é´»^^83^^86ã^^83^^a0æ^^8f^^90ç½…^^88æ^^9b¸.toc'.
 
  [2]
-File: nyuensya.png Graphic file (type bmp)
- <nyuensya.png>
 File: noichi.png Graphic file (type bmp)
+ <noichi.png>
+File: noichi_akaji.png Graphic file (type bmp)
 
-<noichi.png>
+<noichi_akaji.png>
 Overfull \hbox (15.33333pt too wide) in paragraph at lines 48--64
  [][][] 
  []
@@ -199,13 +199,13 @@ File: data_nagare_2.png Graphic file (type bmp)
 <data_nagare_2.png> [5] [6] [7] [8] (./ã^^82æ¿€^^82é´»^^83^^86ã^^83^^a0æ^^8f^^90
 ç½…^^88æ^^9b¸.aux) ) 
 Here is how much of TeX's memory you used:
- 1356 strings out of 493693
- 18036 string characters out of 6149787
+ 1355 strings out of 493693
+ 18050 string characters out of 6149787
  80266 words of memory out of 5000000
- 4914 multiletter control sequences out of 15000+600000
+ 4913 multiletter control sequences out of 15000+600000
  14737 words of font info for 58 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 27i,11n,21p,519b,498s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 27i,11n,21p,533b,498s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on ã^^82æ¿€^^82é´»^^83^^86ã^^83^^a0æ^^8f^^90ç½…^^88æ^^9b¸.dvi (8 pa
-ges, 21212 bytes).
+ges, 21348 bytes).
