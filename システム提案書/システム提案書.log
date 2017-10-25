@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7-160201-2.6 (utf8.euc) (TeX Live 2016) (preloaded format=platex 2017.4.19)  23 OCT 2017 17:03
+This is e-pTeX, Version 3.14159265-p3.7-160201-2.6 (utf8.euc) (TeX Live 2016) (preloaded format=platex 2017.4.19)  25 OCT 2017 13:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -194,9 +194,9 @@ LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 118.
  [4]
-File: data_nagare_2.png Graphic file (type bmp)
+File: data_nagare_3.png Graphic file (type bmp)
 
-<data_nagare_2.png> [5] [6] [7] [8] (./ã^^82æ¿€^^82é´»^^83^^86ã^^83^^a0æ^^8f^^90
+<data_nagare_3.png> [5] [6] [7] [8] (./ã^^82æ¿€^^82é´»^^83^^86ã^^83^^a0æ^^8f^^90
 ç½…^^88æ^^9b¸.aux) ) 
 Here is how much of TeX's memory you used:
  1355 strings out of 493693
@@ -208,4 +208,4 @@ Here is how much of TeX's memory you used:
  27i,11n,21p,533b,498s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on ã^^82æ¿€^^82é´»^^83^^86ã^^83^^a0æ^^8f^^90ç½…^^88æ^^9b¸.dvi (8 pa
-ges, 21348 bytes).
+ges, 21336 bytes).
