@@ -92,7 +92,7 @@ public class ArActivity extends AppCompatActivity implements ArchitectViewHolder
        // call mandatory live-cycle method of architectView
             this.architectView.onPostCreate();
             try {
-                //inde.htmlのパスからコンテンツをロード
+                //index.htmlのパスからコンテンツをロード
                 //描画処理は、index.htmlとなかにあるpoiatlocation.jsに記述する。
                 this.architectView.load( this.getARchitectWorldPath() );
                 //50km以内のものだけ表示

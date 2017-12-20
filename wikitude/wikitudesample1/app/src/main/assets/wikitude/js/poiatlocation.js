@@ -3,9 +3,11 @@
 var World = {
 	// true once data was fetched
 	initiallyLoadedData: false,
+	initiallyLoadedDataSecond: false,
 
 	// POI-Marker asset。マーカーFishの画像
 	markerDrawable_idle: null,
+	markerDrawable_second: null,
 
 	// called to inject new POI data。
 	// マーカーを設置する。
@@ -23,7 +25,7 @@ var World = {
 		//位置情報
 		var markerLocation = new AR.GeoLocation(poiData.latitude, poiData.longitude, poiData.altitude);
 		//描画情報.８は８倍のサイズ
-		var markerImageDrawable_idle = new AR.ImageDrawable(World.markerDrawable_idle, 16, {
+		var markerImageDrawable_idle = new AR.ImageDrawable(World.markerDrawable_idle, 8, {
 			zOrder: 0,//表示順
 			opacity: 1.0,//不透明
 			//クリック時処理
@@ -31,22 +33,9 @@ var World = {
 				//アニメーション開始
       			//elevatorAnimation.start();
       			//リンクへ飛ぶ
-      			document.location.href = "http://www.noichizoo.or.jp/park/animal_intro04_giraffe.html";
+      			document.location.href = "http://www.noichizoo.or.jp/photo_old/animal_intro/am1p.jpg";
     		}
     	});
-
-
-		//回転。アニメーションを定義(１秒間に360度回転)。click時に実行してる
-    	var elevatorAnimation = new AR.PropertyAnimation(
-          markerImageDrawable_idle, //the object geoLocation1 holds the animated property
-          "rotation", //the property altitude will be animated
-          0, //the start value of the animation
-          360, //the resulting value of the animation
-          1000, //the duration of the elevator climb is 10 seconds (10000 miliseconds)
-          {type: AR.CONST.EASING_CURVE_TYPE.EASE_IN_OUT_QUAD}
-
-        );
-
 
 		// create GeoObject
 		//AR上に配置
@@ -58,8 +47,52 @@ var World = {
 
 		// Updates status message as a user feedback that everything was loaded properly.
 		//メッセージ
-		World.updateStatusMessage('1 place loaded');
+		World.updateStatusMessage('Load completed');
+		//World.updateStatusMessage("緯度・経度・高度：" + latitude + ", " + longitude + ", " + altitude);
 	},
+
+	loadPoisFromJsonDataSecond: function loadPoisFromJsonDataFn(poiData2) {
+
+        /*
+            The example Image Recognition already explained how images are loaded and displayed in the augmented reality view. This sample loads an AR.ImageResource when the World variable was defined. It will be reused for each marker that we will create afterwards.
+        */
+        //画像
+        World.markerDrawable_second = new AR.ImageResource("assets/haiena_popup.png");
+
+        /*
+            For creating the marker a new object AR.GeoObject will be created at the specified geolocation. An AR.GeoObject connects one or more AR.GeoLocations with multiple AR.Drawables. The AR.Drawables can be defined for multiple targets. A target can be the camera, the radar or a direction indicator. Both the radar and direction indicators will be covered in more detail in later examples.
+        */
+        //位置情報
+        var markerLocationSecond = new AR.GeoLocation(poiData2.latitude, poiData2.longitude, poiData2.altitude);
+        //描画情報.８は８倍のサイズ
+
+
+        var markerImageDrawable_second = new AR.ImageDrawable(World.markerDrawable_second, 8, {
+            zOrder: 0,//表示順
+            opacity: 1.0,//不透明
+            //クリック時処理
+            onClick : function() {
+                //アニメーション開始
+                //elevatorAnimation.start();
+                //リンクへ飛ぶ
+                document.location.href = "http://www.noichizoo.or.jp/park/images/1.jpg";
+            }
+        });
+
+        // create GeoObject
+        //AR上に配置
+
+        var markerObjectSecond = new AR.GeoObject(markerLocationSecond, {
+            drawables: {
+                cam: [markerImageDrawable_second]
+            }
+        });
+
+        // Updates status message as a user feedback that everything was loaded properly.
+        //メッセージ
+        world.updateStatusMessage("Load completed")
+        //World.updateStatusMessage("緯度・経度・高度・精度：" + lat + ", " + lon + ", " + alt + ", " + acc);
+    },
 
 	// updates status message shon in small "i"-button aligned bottom center
 	//inde.htmlのメッセージやアイコンに状態を表示する
@@ -89,18 +122,51 @@ var World = {
 			// creates a poi object with a random location near the user's location
 			var poiData = {
 				"id": 1,
-				"longitude": (lon + (Math.random() / 5 - 0.1)),
-				"latitude": (lat + (Math.random() / 5 - 0.1)),
-				//"longitude": (133.700942), //経度
-                //"latitude": (33.608764), //緯度
+				//"longitude": (lon + (Math.random() / 5 - 0.1)),
+				//"latitude": (lat + (Math.random() / 5 - 0.1)),
+				"longitude": (133.719661), //経度
+                "latitude": (33.620642), //緯度
 				"altitude": 100.0 //標高
 			};
+			var poiData2 = {
+                "id": 2,
+                //"longitude": (lon + (Math.random() / 5 - 0.1)),
+                //"latitude": (lat + (Math.random() / 5 - 0.1)),
+                "longitude": (133.698337), //経度
+                "latitude": (33.608232), //緯度
+                "altitude": 100.0 //標高
+            };
 			//
 			World.loadPoisFromJsonData(poiData);
+			World.loadPoisFromJsonDataSecond(poiData2);
 			//１回だけのフラグを立てる
 			World.initiallyLoadedData = true;
 		}
 	},
+
+//    locationChangedSecond: function locationChangedFn(lat2, lon2, alt2, acc2) {
+//
+//		/*
+//			The custom function World.onLocationChanged checks with the flag World.initiallyLoadedData if the function was already called. With the first call of World.onLocationChanged an object that contains geo information will be created which will be later used to create a marker using the World.loadPoisFromJsonData function.
+//		*/
+//		//最初だけマーカーの位置を作成する。
+//		if (!World.initiallyLoadedDataSecond) {
+//			// creates a poi object with a random location near the user's location
+//			var poiData2 = {
+//				"id": 2,
+//				//"longitude": (lon + (Math.random() / 5 - 0.1)),
+//				//"latitude": (lat + (Math.random() / 5 - 0.1)),
+//				"longitude": (133.698337), //経度
+//                "latitude": (33.608232), //緯度
+//				"altitude": 100.0 //標高
+//			};
+//			//
+//			World.loadPoisFromJsonDataSecond(poiData2);
+//			//１回だけのフラグを立てる
+//			World.initiallyLoadedDataSecond = true;
+//		}
+//	},
+
 };
 
 /*
@@ -108,3 +174,5 @@ var World = {
 */
 //位置情報が変化した時の処理。これがメインルーチンみたいになる。
 AR.context.onLocationChanged = World.locationChanged;
+AR.context.onLocationChangedSecond = World.locationChangedSecond;
+AR.context.onScreenClick = World.onScreenClick;
