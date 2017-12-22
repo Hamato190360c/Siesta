@@ -27,8 +27,8 @@ public class HomeActivity extends Activity {
                 startActivity(intent);
             }
         });
-        ImageButton imageButton2 = (ImageButton)findViewById(R.id.imageButton2);
-        imageButton2.setOnClickListener(new View.OnClickListener() {
+        ImageButton imageButton3 = (ImageButton)findViewById(R.id.imageButton3);
+        imageButton3.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // どうぶつ 画面を起動
                 Intent intent = new Intent();
