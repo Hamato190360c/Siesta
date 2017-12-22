@@ -76,7 +76,7 @@ var World = {
                 //アニメーション開始
                 //elevatorAnimation.start();
                 //リンクへ飛ぶ
-                widow.open("http://www.noichizoo.or.jp/park/animal_intro04_hyena.html");
+                window.open("http://www.noichizoo.or.jp/park/animal_intro04_hyena.html");
             }
         });
 
