@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_ani"
+    tools:context="com.gashfara.wikitudesample1.AreaEngActivity">
+
+
+    <android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="false">
+
+        <!-- your content layout -->
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="360dp"
+            android:layout_height="480dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="0dp"
+            android:background="@drawable/area_eng" />
+
+        <ImageButton
+            android:id="@+id/Buttonontaieng"
+            android:layout_width="260dp"
+            android:layout_height="5dp"
+            android:layout_marginTop="115dp"
+            android:layout_marginBottom="317dp"
+            android:layout_marginLeft="0dp"
+            android:background="@drawable/ontai_eng" />
+
+        <ImageButton
+            android:id="@+id/imageButtonkut"
+            android:layout_width="250dp"
+            android:layout_height="5dp"
+            android:layout_marginTop="176dp"
+            android:layout_marginBottom="265dp"
+            android:layout_marginLeft="0dp"
+            android:background="@drawable/kut_eng" />
+
+        <ImageButton
+            android:id="@+id/imageButtonnettai"
+            android:layout_width="250dp"
+            android:layout_height="10dp"
+            android:layout_marginTop="235dp"
+            android:layout_marginBottom="205dp"
+            android:layout_marginLeft="0dp"
+            android:background="@drawable/nettai_eng" />
+
+        <ImageButton
+            android:id="@+id/imageButtonjang"
+            android:layout_width="190dp"
+            android:layout_height="10dp"
+            android:layout_marginTop="295dp"
+            android:layout_marginBottom="145dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+
+            android:background="@drawable/jangle_eng" />
+
+        <ImageButton
+            android:id="@+id/imageButtonaflica"
+            android:layout_width="250dp"
+            android:layout_height="10dp"
+            android:layout_marginTop="355dp"
+            android:layout_marginBottom="95dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:background="@drawable/aflica_eng" />
+
+        <ImageButton
+            android:id="@+id/imageButton6"
+            android:layout_width="250dp"
+            android:layout_height="5dp"
+            android:layout_marginTop="410dp"
+            android:layout_marginBottom="40dp"
+            android:layout_marginLeft="0dp"
+            android:background="@drawable/kodomo_eng" />
+
+        <android.support.design.widget.NavigationView
+            android:id="@+id/nav_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+
+            app:headerLayout="@layout/drawer_header"
+            app:menu="@layout/drawer_eng" />
+
+    </android.support.v4.widget.DrawerLayout>
+
+
+</RelativeLayout>
+    <!--</ScrollView>-->

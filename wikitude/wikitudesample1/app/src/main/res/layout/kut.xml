@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_ani"
+    tools:context="com.gashfara.wikitudesample1.KutActivity">
+
+
+
+    <ImageButton
+
+        android:layout_width="360dp"
+        android:layout_height="480dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="0dp"
+        android:background="@drawable/kutbanner" />
+
+    <ImageButton
+
+        android:layout_width="240dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="-340dp"
+        android:layout_marginLeft="60dp"
+        android:background="@drawable/main" />
+
+    <ImageButton
+
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="55dp"
+        android:background="@drawable/atou" />
+
+    <ImageButton
+
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="60dp"
+        android:background="@drawable/bctou" />
+
+    <ImageButton
+
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="57dp"
+        android:background="@drawable/dining" />
+
+    <ImageButton
+
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="63dp"
+        android:background="@drawable/library" />
+
+
+
+</LinearLayout>

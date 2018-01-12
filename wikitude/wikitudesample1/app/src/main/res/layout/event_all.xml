@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_event"
+    tools:context="com.gashfara.wikitudesample1.EventselectActivity">
+
+    <ImageButton
+
+        android:layout_width="360dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="0dp"
+        android:background="@drawable/event_var" />
+
+    <ImageButton
+        android:id="@+id/yearevent"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/select_year" />
+
+    <ImageButton
+        android:id="@+id/monthevent"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/select_month" />
+
+    <ImageButton
+        android:id="@+id/happyevent"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/select_happy" />
+
+</LinearLayout>

@@ -19,17 +19,41 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_launcher2"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ArActivity"
-            android:configChanges="orientation|keyboardHidden|screenSize"><!--イベントをハンドリング-->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+        <activity android:name=".StartActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".HomeActivity"></activity>
+        <activity android:name=".ArActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"><!--イベントをハンドリング-->
+        </activity>
+        <activity android:name=".AreaActivity"></activity>
+        <activity android:name=".AnimalActivity"></activity>
+        <activity android:name=".PandaActivity"></activity>
+        <activity android:name=".MizudoriActivity"></activity>
+        <activity android:name=".EventselectActivity"></activity>
+        <activity android:name=".YearEventActivity"></activity>
+        <activity android:name=".MonthEventActivity"></activity>
+        <activity android:name=".HappyActivity"></activity>
+        <activity android:name=".KutActivity"></activity>
+        <activity android:name=".HomeEngActivity"></activity>
+        <activity android:name=".AreaEngActivity"></activity>
+        <activity android:name=".AnimalEngActivity"></activity>
+        <activity android:name=".MizudoriEngActivity"></activity>
+        <activity android:name=".CongestionActivity"></activity>
+        <activity android:name=".HonkanCongestionActivity"></activity>
+        <activity android:name=".GroundCongestionActivity"></activity>
+        <activity android:name=".GymCongestionActivity"></activity>
+        <activity android:name=".MapActivity"></activity>
     </application>
 
 </manifest>

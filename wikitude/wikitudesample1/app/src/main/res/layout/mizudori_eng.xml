@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gashfara.wikitudesample1.MizudoriEngActivity"
+    android:background="@drawable/background_ontai">
+    <LinearLayout
+        android:orientation="vertical"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <ImageButton
+
+            android:layout_width="360dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginStart="0dp"
+            android:background="@drawable/mizudorieng_vanner" />
+
+        <ImageButton
+
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/tukusikamo_eng" />
+
+        <ImageButton
+
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="35dp"
+            android:background="@drawable/magamo_eng" />
+
+        <ImageButton
+
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="35dp"
+            android:background="@drawable/akahasi_eng" />
+
+        <ImageButton
+
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="35dp"
+            android:background="@drawable/osidori_eng" />
+
+    </LinearLayout>
+
+</ScrollView>

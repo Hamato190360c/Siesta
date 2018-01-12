@@ -1,20 +1,25 @@
 //メイン画面。UI以外はほぼそのまま毎回使う。
 package com.gashfara.wikitudesample1;
 
-import android.Manifest;
-import android.content.Context;
 import android.hardware.SensorManager;
 import android.location.Location;
 import android.location.LocationListener;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.Toast;
+import android.view.MenuItem;
+import android.support.design.widget.NavigationView;
+
+import android.app.Activity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
 
 import com.wikitude.architect.ArchitectView;
-import com.wikitude.architect.ArchitectView.ArchitectUrlListener;
 import com.wikitude.architect.ArchitectView.SensorAccuracyChangeListener;
 import com.wikitude.architect.StartupConfiguration;
-import com.wikitude.architect.StartupConfiguration.CameraPosition;
 
 import java.io.IOException;
 //ArchitectViewHolderInterfaceを実装
@@ -28,7 +33,64 @@ public class ArActivity extends AppCompatActivity implements ArchitectViewHolder
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.ar);
+
+        NavigationView mNavigationView = (NavigationView) findViewById(R.id.nav_view);
+        mNavigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(MenuItem menuItem) {
+
+                Intent intent = new Intent();
+                switch (menuItem.getItemId()) {
+                    case R.id.menu_home:
+                        //メニュー：ホームがタップされた場合の動作を記述する
+                        intent.setClassName("com.gashfara.wikitudesample1", "com.gashfara.wikitudesample1.HomeActivity");
+                        startActivity(intent);
+                        break;
+
+                    case R.id.menu_ar:
+                        //メニュー：ホームがタップされた場合の動作を記述する
+                        intent.setClassName("com.gashfara.wikitudesample1", "com.gashfara.wikitudesample1.ArActivity");
+                        startActivity(intent);
+                        break;
+
+                    case R.id.menu_map:
+
+                        break;
+
+                    case R.id.menu_animal:
+                        //メニュー：ホームがタップされた場合の動作を記述する
+                        intent.setClassName("com.gashfara.wikitudesample1", "com.gashfara.wikitudesample1.AnimalActivity");
+                        startActivity(intent);
+                        break;
+
+                    case R.id.menu_event:
+                        intent.setClassName("com.gashfara.wikitudesample1", "com.gashfara.wikitudesample1.EventselectActivity");
+                        startActivity(intent);
+                        break;
+
+                    case R.id.menu_congastion:
+                        intent.setClassName("com.gashfara.wikitudesample1", "com.gashfara.wikitudesample1.CongastionActivity");
+                        startActivity(intent);
+                        break;
+
+                    default:
+                        break;
+                }
+
+                return false;
+            }
+        });
+
+//        Button btnDisp = (Button)findViewById(R.id.btnDisp);
+//        btnDisp.setOnClickListener(new OnClickListener() {
+//            public void onClick(View v) {
+//                // Home起動
+//                Intent intent = new Intent();
+//                intent.setClassName("com.gashfara.wikitudesample1", "com.gashfara.wikitudesample1.HomeActivity");
+//                startActivity(intent);
+//            }
+//        });
         //mogi Android6対応。権限をアプリで実装しないとエラーになる。SDKのターゲットを23にしちゃうと必要。
         //requestPermissions(new String[]{Manifest.permission.ACCESS_FINE_LOCATION,Manifest.permission.CAMERA}, 0);
         //ARのビュー
@@ -175,6 +237,7 @@ public class ArActivity extends AppCompatActivity implements ArchitectViewHolder
             }
         };
     }
+
 
 
 }

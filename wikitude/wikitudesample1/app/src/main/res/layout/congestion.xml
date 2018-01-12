@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CongestionActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="510dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="TODO"
+            android:scaleType="fitXY"
+            android:src="@drawable/congestion_map" />
+
+        <ImageButton
+            android:id="@+id/honkan"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="285dp"
+            android:layout_marginTop="230dp"
+            android:background="@drawable/congestion_icon" />
+
+        <ImageButton
+            android:id="@+id/ground"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="370dp"
+            android:layout_marginTop="130dp"
+            android:background="@drawable/congestion_icon" />
+
+        <ImageButton
+            android:id="@+id/gym"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/congestion_icon" />
+
+    </RelativeLayout>
+
+</HorizontalScrollView>

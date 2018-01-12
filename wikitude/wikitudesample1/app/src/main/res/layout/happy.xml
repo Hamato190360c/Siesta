@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gashfara.wikitudesample1.HappyActivity"
+    android:background="@drawable/background_event">
+
+    <LinearLayout
+        android:orientation="vertical"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ImageButton
+
+            android:layout_width="360dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="0dp"
+            android:background="@drawable/happybenner" />
+
+        <ImageButton
+
+            android:layout_width="350dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="0dp"
+            android:background="@drawable/happymorumotto" />
+
+        <ImageButton
+
+            android:layout_width="350dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="0dp"
+            android:background="@drawable/happyhorse" />
+
+        <ImageButton
+
+            android:layout_width="350dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="0dp"
+            android:background="@drawable/happyrisu" />
+
+        <ImageButton
+
+            android:layout_width="350dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="0dp"
+            android:background="@drawable/happykarakuri" />
+
+    </LinearLayout>
+
+</ScrollView>

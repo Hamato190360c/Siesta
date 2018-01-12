@@ -1,0 +1,79 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/mizuki/Desktop/ソフ工/backup/2018:1:11_2/wikitudesample1/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ldltr-v21/values-ldltr-v21.xml",
+            "map": [
+                {
+                    "source": "/Users/mizuki/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/fd899a7b8db6139866ab47f13035dd2b/res/values-ldltr-v21/values-ldltr-v21.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "112",
+                        "endOffsets": "163"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/mizuki/Desktop/wikitudesample1/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ldltr-v21/values-ldltr-v21.xml",
+            "map": [
+                {
+                    "source": "/Users/mizuki/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/fd899a7b8db6139866ab47f13035dd2b/res/values-ldltr-v21/values-ldltr-v21.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "112",
+                        "endOffsets": "163"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/mizuki/AndroidStudioProjects/wikitudesample1/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ldltr-v21/values-ldltr-v21.xml",
+            "map": [
+                {
+                    "source": "/Users/mizuki/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/fd899a7b8db6139866ab47f13035dd2b/res/values-ldltr-v21/values-ldltr-v21.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "112",
+                        "endOffsets": "163"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/mizuki/Desktop/wikitudesample3/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ldltr-v21/values-ldltr-v21.xml",
+            "map": [
+                {
+                    "source": "/Users/mizuki/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/fd899a7b8db6139866ab47f13035dd2b/res/values-ldltr-v21/values-ldltr-v21.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "112",
+                        "endOffsets": "163"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/mizuki/Desktop/ソフ工/backup/2018:1:13/wikitudesample1/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ldltr-v21/values-ldltr-v21.xml",
+            "map": [
+                {
+                    "source": "/Users/mizuki/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/fd899a7b8db6139866ab47f13035dd2b/res/values-ldltr-v21/values-ldltr-v21.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "112",
+                        "endOffsets": "163"
+                    }
+                }
+            ]
+        }
+    ]
+}
